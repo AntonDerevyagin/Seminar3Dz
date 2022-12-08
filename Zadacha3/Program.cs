@@ -1,8 +1,10 @@
 ﻿Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int i = 1;
-
+int res = 0;
 for (i=1; i <= n; i++)
 {
-    Console.WriteLine($"Таблица кубов от 1 до {n}, где {i}^3  = {i*i*i}");
+   res = i*i*i;
+   Console.WriteLine($"{res}");
 }
+
